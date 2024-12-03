@@ -9,5 +9,5 @@ This research aims to develop an intelligent robotic arm control system based on
   <img src="https://github.com/user-attachments/assets/dd2aa675-f083-46be-9fcf-85f7fe11cbf9" alt="df7510d1df254d83e6180a43bde1c80_副本" style="width: 43%;">
 </p>
 
-#Setting
+# Setting
 
