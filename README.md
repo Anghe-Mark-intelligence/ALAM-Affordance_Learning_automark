@@ -66,11 +66,17 @@ The states of AIRBOT Play can be switched by pressing buttons on the base panels
 | Manual or Manual (Recording) | SINGLE CLICK on the END BUTTON     | UNCHANGED                        | Gripper opened / closed                      | The gripper opens or closes while dragging the end effector. |
 
 The states can also be switched by external commands
+
 manual_mode(): Switch to manual mode
+
 online_mode(): Switch to online mode
+
 offline_mode(): Switch to offline mode
+
 record_start(): Start recording trajectory
+
 record_stop(): Stop recording trajectory
+
 replay_start(): Start replaying recorded trajectory
 
 # Zero Position Calibration
