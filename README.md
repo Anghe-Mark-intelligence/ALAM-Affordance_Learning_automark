@@ -77,3 +77,10 @@ replay_start(): Start replaying recorded trajectory
 airbot_set_zero -m can[i] 
 
 ```
+control by keyboard:
+```
+airbot_kbd_ctrl -m can0 -e gripper
+airbot_kbd_ctrl -m can1 -e newteacher
+airbot_kbd_ctrl -m can2 -e yinshi
+airbot_kbd_ctrl -m can3 -e yinshi
+```
