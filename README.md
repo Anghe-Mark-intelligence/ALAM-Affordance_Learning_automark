@@ -84,3 +84,4 @@ airbot_kbd_ctrl -m can1 -e
 airbot_kbd_ctrl -m can2 -e 
 airbot_kbd_ctrl -m can3 -e 
 ```
+Afterward, we can collect our data and use it as input for the affordance model to train the model.
