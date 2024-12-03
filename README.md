@@ -15,10 +15,10 @@ We are using the Airbot series for teleoperated robotic arms, and a lot of work 
 
 在Ubuntu 20.04中创建一个文件夹并进入其中，接着创建并激活一个名为`angrobot`的Conda环境。
 
-<div style="background-color: black; color: white; padding: 10px;">
-    mkdir angrobotarm
-    cd angrobotarm
-    conda create --name angrobot python=3.8
-    conda activate angrobot
-    sudo apt install ./packages/airbot_play_<version>_amd64.deb
-</div>
+```bash
+mkdir angrobotarm
+cd angrobotarm
+# 创建conda环境
+conda create --name angrobot python=3.8
+conda activate angrobot
+```
