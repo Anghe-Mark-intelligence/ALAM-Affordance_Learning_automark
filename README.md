@@ -50,3 +50,26 @@ By using some parameters provided by the manufacturer, we can determine the stat
 | Offline (Moving to starting point)       | <span style="color: #800080; font-weight: bold;">Flowing Purple</span> | The robot is in offline mode, moving to the starting point of the recorded trajectory. External commands will be ignored. |
 | Offline (Replaying)                      | <span style="color: #800080; font-weight: bold;">Breathing Purple</span> | The robot is in offline mode replaying the recorded trajectory.             |
 | Error                                    | <span style="color: #ff0000;">Constant Red</span>           | The robot is in error state.                                                 |
+
+The states of AIRBOT Play can be switched by pressing buttons on the base panels and on the end:
+| Current State            | Action                             | Next State                       | Side Effect                                  | Description                                                                 |
+|--------------------------|------------------------------------|----------------------------------|----------------------------------------------|-----------------------------------------------------------------------------|
+| Online (Idle)             | LONG PRESS on the END BUTTON       | Manual                          | Start gravity compensation and free drive the arm | The robot starts gravity compensation and can be manually controlled. |
+| Offline (Idle)            | LONG PRESS on the END BUTTON       | Manual                          | Start gravity compensation and free drive the arm | The robot starts gravity compensation and can be manually controlled. |
+| Manual                    | LONG PRESS on the END BUTTON       | Online (Idle)                    | Stop gravity compensation and ready for external control | The robot stops gravity compensation and prepares for external control. |
+| Online (Idle)             | DOUBLE CLICK on the END BUTTON     | Offline (Idle)                   | Stop responding to external control and prepare for trajectory replay | The robot stops responding to external control and prepares to replay a recorded trajectory. |
+| Offline (Idle)            | DOUBLE CLICK on the END BUTTON     | Online (Idle)                    | Return to online mode accepting external control | The robot returns to online mode and accepts external commands. |
+| Manual                    | DOUBLE CLICK on the END BUTTON     | Offline (Idle)                   | Stop gravity compensation and prepare for trajectory replay | The robot stops gravity compensation and prepares for trajectory replay. |
+| Offline (Idle)            | SINGLE CLICK on the BASE BUTTON    | Offline (Moving to starting point) | Prepare to replay recorded trajectory by moving to the starting point | The robot moves to the starting point to prepare for trajectory replay. |
+| Manual                    | SINGLE CLICK on the BASE BUTTON    | Manual (Recording)               | Start recording trajectory                    | The robot starts recording the trajectory while in manual mode. |
+| Manual (Recording)        | SINGLE CLICK on the BASE BUTTON    | Manual                          | Stop recording trajectory                    | The robot stops recording the trajectory. |
+| Manual or Manual (Recording) | SINGLE CLICK on the END BUTTON     | UNCHANGED                        | Gripper opened / closed                      | The gripper opens or closes while dragging the end effector. |
+The states can also be switched by external commands:
+manual_mode(): Switch to manual mode
+online_mode(): Switch to online mode
+offline_mode(): Switch to offline mode
+record_start(): Start recording trajectory
+record_stop(): Stop recording trajectory
+replay_start(): Start replaying recorded trajectory
+
+# Zero Position Calibration
