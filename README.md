@@ -31,3 +31,8 @@ To install airbot_tools, run the following command (replace <version> with the a
 ```bash
 sudo apt install ./packages/airbot_tools_<version>_amd64.deb
 ```
+Run the following command to validate the installation:
+```bashairbot_kbd_ctrl -v
+# Example output:
+# 2.8.3-4f625187
+```
