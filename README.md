@@ -73,3 +73,7 @@ record_stop(): Stop recording trajectory
 replay_start(): Start replaying recorded trajectory
 
 # Zero Position Calibration
+```bash
+airbot_set_zero -m can[i] 
+
+```
