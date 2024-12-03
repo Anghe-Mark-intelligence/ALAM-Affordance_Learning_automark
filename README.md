@@ -11,3 +11,14 @@ This research aims to develop an intelligent robotic arm control system based on
 
 # Setting
 We are using the Airbot series for teleoperated robotic arms, and a lot of work needs to be done before completing autonomous annotation. The environment is set to PyTorch 1.11 with CUDA 11.3.Please first install PyTorch, CUDA 11.3, and Ubuntu 20.04, and complete the related operations.To install ROS, you can refer to the following [tutorial](https://www.ros.org/).
+# 创建Conda环境
+
+在Ubuntu 20.04中创建一个文件夹并进入其中，接着创建并激活一个名为`angrobot`的Conda环境。
+
+<div style="background-color: black; color: white; padding: 10px;">
+    mkdir angrobotarm
+    cd angrobotarm
+    conda create --name angrobot python=3.8
+    conda activate angrobot
+    sudo apt install ./packages/airbot_play_<version>_amd64.deb
+</div>
