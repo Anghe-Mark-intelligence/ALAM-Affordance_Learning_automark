@@ -37,15 +37,16 @@ Run the following command to validate the installation:
 # 2.8.3-4f625187
 ```
 # State of robot_arm
-| State                                    | Color           | Description                                                                 |
-|------------------------------------------|-----------------|-----------------------------------------------------------------------------|
-| Self-check                               | Breathing       | The robot is powered on and self-checking.                                   |
-| Power On                                 | Constant White  | The robot is powered on and prepared to be controlled.                       |
-| Online (Idle)                            | Constant Green  | The robot is in online mode and can be controlled by external commands.     |
-| Online (Idle)                            | Flashing Green  | The robot is in online mode and is moving right now.                         |
-| Manual                                   | Constant Cyan   | The robot is in manual mode and can be dragged freely with gravity compensation. |
-| Manual (Recording)                       | Constant Blue   | The robot is in manual mode and can be dragged freely with gravity compensation. The trajectory is being recorded. |
-| Offline (Idle)                           | Constant Purple | The robot is in offline mode prepared to replay recorded trajectory. External commands will be ignored. |
-| Offline (Moving to starting point)       | Flowing Purple  | The robot is in offline mode, moving to the starting point of the recorded trajectory. External commands will be ignored. |
-| Offline (Replaying)                      | Breathing Purple| The robot is in offline mode replaying the recorded trajectory.             |
-| Error                                    | Constant Red    | The robot is in error state.                                                 |
+By using some parameters provided by the manufacturer, we can determine the status of the robotic arm as follows:
+| State                                    | Color                                                       | Description                                                                 |
+|------------------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------|
+| Self-check                               | <span style="color: #ffcc00;">Breathing</span>               | The robot is powered on and self-checking.                                   |
+| Power On                                 | <span style="color: #ffffff; background-color: #000000;">Constant White</span> | The robot is powered on and prepared to be controlled.                       |
+| Online (Idle)                            | <span style="color: #00ff00;">Constant Green</span>          | The robot is in online mode and can be controlled by external commands.     |
+| Online (Idle)                            | <span style="color: #00ff00; font-weight: bold;">Flashing Green</span> | The robot is in online mode and is moving right now.                         |
+| Manual                                   | <span style="color: #00ffff;">Constant Cyan</span>           | The robot is in manual mode and can be dragged freely with gravity compensation. |
+| Manual (Recording)                       | <span style="color: #0000ff;">Constant Blue</span>           | The robot is in manual mode and can be dragged freely with gravity compensation. The trajectory is being recorded. |
+| Offline (Idle)                           | <span style="color: #800080;">Constant Purple</span>        | The robot is in offline mode prepared to replay recorded trajectory. External commands will be ignored. |
+| Offline (Moving to starting point)       | <span style="color: #800080; font-weight: bold;">Flowing Purple</span> | The robot is in offline mode, moving to the starting point of the recorded trajectory. External commands will be ignored. |
+| Offline (Replaying)                      | <span style="color: #800080; font-weight: bold;">Breathing Purple</span> | The robot is in offline mode replaying the recorded trajectory.             |
+| Error                                    | <span style="color: #ff0000;">Constant Red</span>           | The robot is in error state.                                                 |
