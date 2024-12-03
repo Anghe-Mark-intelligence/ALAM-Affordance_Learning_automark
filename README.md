@@ -14,7 +14,20 @@ We are using the Airbot series for teleoperated robotic arms, and a lot of work 
 ```bash
 mkdir angrobotarm
 cd angrobotarm
-# 创建conda环境
 conda create --name angrobot python=3.8
 conda activate angrobot
+sudo apt install ./packages/airbot_play_<version>_amd64.deb
+```
+Run the following command to validate the installation:
+```bash
+airbot_read_params -v
+# Example output:
+# 2.8.3-4f625187
+```
+airbot_tools is an example tools package that depends on the basic control library package airbot_play. It contains several tools for AIRBOT Play, for quick testing and debugging. The tools include:
+airbot_kbd_ctrl: An example toolkit to control AIRBOT Play using the keyboard
+airbot_sync: Launch two AIRBOT Play arms in synchronization mode, making one following another.
+To install airbot_tools, run the following command (replace <version> with the actual version number):
+```bash
+sudo apt install ./packages/airbot_tools_<version>_amd64.deb
 ```
