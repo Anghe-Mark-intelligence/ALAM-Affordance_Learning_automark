@@ -9,6 +9,14 @@ This research aims to develop an intelligent robotic arm control system based on
   <img src="https://github.com/user-attachments/assets/dd2aa675-f083-46be-9fcf-85f7fe11cbf9" alt="df7510d1df254d83e6180a43bde1c80_副本" style="width: 43%;">
 </p>
 
+# Training environment
+The graphics card we use is Nvidia's 4090
+<p align="center">- GPU:Nvidia RTX 4090</p>
+<p align="center">- CPU:AMD Ryzen 9 5950X @ 3.4Ghz</p>
+<p align="center">- RAM:32GB</p>
+<p align="center">- OS:Ubuntu20.04</p>
+
+
 # Setting
 We are using the Airbot series for teleoperated robotic arms, and a lot of work needs to be done before completing autonomous annotation. The environment is set to PyTorch 1.11 with CUDA 11.3.Please first install PyTorch, CUDA 11.3, and Ubuntu 20.04, and complete the related operations.To install ROS, you can refer to the following [tutorial](https://www.ros.org/).
 ```bash
