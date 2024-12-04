@@ -124,7 +124,7 @@ class AffordanceVisualizer:
 
 # 主函数
 if __name__ == "__main__":
-    model_path = r"C:\Users\Administrator\Desktop\课程设计\何昂机器学习可供性学习机械臂\train_model(me)\affordance_model.pth"
+    model_path = r"C:\Users\Administrator\Desktop\课程设计\angheml\train_model(me)\affordance_model.pth"
 
     root = tk.Tk()
     app = AffordanceVisualizer(root, model_path)
