@@ -11,10 +11,10 @@ This research aims to develop an intelligent robotic arm control system based on
 
 # Training environment
 The graphics card we use is Nvidia's 4090
-<p align="center">- GPU:Nvidia RTX 4090</p>
-<p align="center">- CPU:AMD Ryzen 9 5950X @ 3.4Ghz</p>
-<p align="center">- RAM:32GB</p>
-<p align="center">- OS:Ubuntu20.04</p>
+- GPU:Nvidia RTX 4090
+- CPU:AMD Ryzen 9 5950X @ 3.4Ghz
+- RAM:32GB
+- OS:Ubuntu20.04
 
 
 # Setting
