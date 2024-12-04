@@ -92,3 +92,8 @@ airbot_kbd_ctrl -m can2 -e
 airbot_kbd_ctrl -m can3 -e 
 ```
 Afterward, we can collect our data and use it as input for the affordance model to train the model.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6923834a-1f1c-4fcd-adfe-7a7d6007a7e2" width="300" style="margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/448d5535-9785-427f-a793-109d863a31c2" width="300" />
+</p>
+
