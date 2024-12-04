@@ -125,7 +125,8 @@ We have referenced a method for the eye-in-hand external hand-eye [calibration](
 Use a chessboard pattern for hand-eye calibration of the robotic arm to obtain the matrix and establish the relationship.
 
 # Installing resnet
-'''
+To install the ResNet we need, please follow the steps below：
+```
 cd angrobotarm
 sudo apt-get install -y python3-venv
 python3 -m venv resnet-env
@@ -133,5 +134,5 @@ source resnet-env/bin/activate
 pip install --upgrade pip
 pip install tensorflow==2.6.0
 pip install numpy opencv-python matplotlib
-'''
+```
 
