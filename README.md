@@ -136,3 +136,13 @@ pip install tensorflow==2.6.0
 pip install numpy opencv-python matplotlib
 ```
 
+#Data colletion
+In order to collect data, we need to first adjust the robotic arm to 0, as mentioned before, and then we can remotely operate the robotic arm.
+```
+markmagic_demonstrate -c 2 4 6 -mts 200 -tn example_task -gn 2
+markmagic1_demonstrate -c 2 4 6 -mts 1200 -tn example_task -se 1 
+
+```
+After creating the dataset or using the dataset we created, we can proceed with training.
+# License
+MIT License
