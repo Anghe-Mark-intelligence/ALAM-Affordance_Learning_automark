@@ -97,3 +97,5 @@ Afterward, we can collect our data and use it as input for the affordance model 
   <img src="https://github.com/user-attachments/assets/448d5535-9785-427f-a793-109d863a31c2" width="300" />
 </p>
 
+# Pre-trained model
+If you need the dataset we have already downloaded, you can access it in [train_model](https://github.com/Anghe-Mark-intelligence/ALAM-Affordance_Learning_automark/tree/main/train_model/aiam)
