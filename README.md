@@ -150,10 +150,11 @@ markmagic1_demonstrate -c 2 4 6 -mts 1200 -tn example_task -se 1
 
 ```
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/46ef0a12-4f57-4208-b16e-734f04411a3e" alt="1338e191f8c1571e264ecff48dc0086f_750" width="30%" />
-  <img src="https://github.com/user-attachments/assets/2c39ae53-ea07-4df2-b480-8615fbaaf5a7" alt="86ecf639edb912aabba47ce78db14887_750" width="30%" />
-  <img src="https://github.com/user-attachments/assets/b464a857-0e28-4988-90ef-831b40982909" alt="f05a205fb5dc8134d0ae62ea0ad29625_750" width="30%" />
+  <img src="https://github.com/user-attachments/assets/9b10c598-4672-4eeb-98ba-87314614b443" alt="copy_80A01E61-6921-4C25-B4BD-C1225A7078E5" width="30%" />
+  <img src="https://github.com/user-attachments/assets/20f37dfe-0af1-45d9-906f-d81f52b9dceb" alt="copy_A8E13CC1-B2C7-4840-BB77-87A8451F42A4" width="30%" />
+  <img src="https://github.com/user-attachments/assets/1b32a7d4-3e87-4a76-9809-2b913a6d0e23" alt="copy_80A01E61-6921-4C25-B4BD-C1225A7078E5" width="30%" />
 </p>
+
 
 
 After creating the dataset or using the dataset we created, we can proceed with training.
