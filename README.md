@@ -123,3 +123,15 @@ There are two sets (teaching arm and execution arm), which can be used different
 # Eye-in-hand external hand-eye calibration model
 We have referenced a method for the eye-in-hand external hand-eye [calibration](https://www.bilibili.com/video/BV1zP4y1S7yy/?buvid=Y342EC3C2C69FEB04FAB932052245F547555&from_spmid=main.my-history.0.0&is_story_h5=false&mid=BTpbMJ%2Box1GCLJBQreci%2Bg%3D%3D&p=4&plat_id=116&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=78BBA474-1410-4E28-A6F2-55CA69D49AF0&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1731977050&unique_k=66lutpQ&up_id=395939636&share_source=weixin)
 Use a chessboard pattern for hand-eye calibration of the robotic arm to obtain the matrix and establish the relationship.
+
+# Installing resnet
+'''
+cd angrobotarm
+sudo apt-get install -y python3-venv
+python3 -m venv resnet-env
+source resnet-env/bin/activate
+pip install --upgrade pip
+pip install tensorflow==2.6.0
+pip install numpy opencv-python matplotlib
+'''
+
