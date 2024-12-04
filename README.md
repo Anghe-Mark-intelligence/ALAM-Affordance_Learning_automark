@@ -107,8 +107,9 @@ bash install.sh
 # Remote operation mode
 There are two sets (teaching arm and execution arm), which can be used differently for different tasks. They can be used with one arm or with both arms for collaborative tasks.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cec02631-fa0d-460d-bec8-ad22df1cfd82" alt="Centered Image">
+  <img src="https://github.com/user-attachments/assets/cec02631-fa0d-460d-bec8-ad22df1cfd82" alt="Centered Image" width="45%">
 </p>
+
 
 
 # Eye-in-hand external hand-eye calibration model
