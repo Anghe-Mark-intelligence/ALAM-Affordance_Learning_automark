@@ -123,6 +123,10 @@ There are two sets (teaching arm and execution arm), which can be used different
 # Eye-in-hand external hand-eye calibration model
 We have referenced a method for the eye-in-hand external hand-eye [calibration](https://www.bilibili.com/video/BV1zP4y1S7yy/?buvid=Y342EC3C2C69FEB04FAB932052245F547555&from_spmid=main.my-history.0.0&is_story_h5=false&mid=BTpbMJ%2Box1GCLJBQreci%2Bg%3D%3D&p=4&plat_id=116&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=78BBA474-1410-4E28-A6F2-55CA69D49AF0&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1731977050&unique_k=66lutpQ&up_id=395939636&share_source=weixin)
 Use a chessboard pattern for hand-eye calibration of the robotic arm to obtain the matrix and establish the relationship.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/322d646f-ada7-4501-b095-df3437e59a68" alt="copy_80A01E61-6921-4C25-B4BD-C1225A7078E5" width="60%">
+</p>
+
 
 # Installing resnet
 To install the ResNet we need, please follow the steps below：
