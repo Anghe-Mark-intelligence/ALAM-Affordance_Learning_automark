@@ -5,9 +5,7 @@ About affordence_learing please follow the [introduction](https://blog.csdn.net/
 Visual perception gives the robotic arm the ability to understand and perceive its surrounding environment, while reinforcement learning, through trial and error and feedback mechanisms, allows the robotic arm to autonomously learn how to perform tasks such as grasping, moving, and manipulating objects. Particularly in scenarios involving tasks like wall pulling or moving, the robotic arm can use visual perception to identify the positions of walls and obstacles in real-time, and through reinforcement learning, autonomously explore suitable action strategies to optimize task completion efficiency.
 
 This research aims to develop an intelligent robotic arm control system based on visual perception and reinforcement learning, which will output affordance features of interactions between the machine and the real world through affordance learning. In the future, it can be combined with reinforcement learning to enable the robotic arm to autonomously learn how to manipulate walls and complete precise grasping and moving tasks in complex dynamic environments.
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/dd2aa675-f083-46be-9fcf-85f7fe11cbf9" alt="df7510d1df254d83e6180a43bde1c80_副本" style="width: 43%;">
-</p>
+
 
 # Training environment
 The graphics card we use is Nvidia's 4090
@@ -108,7 +106,7 @@ Afterward, we can collect our data and use it as input for the affordance model 
 # Pre-trained model
 If you need the dataset we have trained, you can access it in [train_model](https://github.com/Anghe-Mark-intelligence/ALAM-Affordance_Learning_automark/tree/main/train_model/aiam)
 ```
-cd angrobotarm
+cd <>
 bash install.sh
 ```
 
@@ -133,7 +131,7 @@ Use a chessboard pattern for hand-eye calibration of the robotic arm to obtain t
 # Installing resnet
 To install the ResNet we need, please follow the steps below：
 ```
-cd angrobotarm
+cd <>
 sudo apt-get install -y python3-venv
 python3 -m venv resnet-env
 source resnet-env/bin/activate
@@ -145,8 +143,8 @@ pip install numpy opencv-python matplotlib
 # Data collection
 In order to collect data, we need to first adjust the robotic arm to 0, as mentioned before, and then we can remotely operate the robotic arm.
 ```
-markmagic_demonstrate -c 2 4 6 -mts 200 -tn example_task -gn 2
-markmagic1_demonstrate -c 2 4 6 -mts 1200 -tn example_task -se 1 
+xx_demonstrate -c 2 4 6 -mts 200 -tn example_task -gn 2
+xx_demonstrate -c 2 4 6 -mts 1200 -tn example_task -se 1 
 
 ```
 <p align="center">
